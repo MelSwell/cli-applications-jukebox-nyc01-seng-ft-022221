@@ -56,8 +56,9 @@ def run(songs)
       play(songs)
     when "help"
       help
+    else
+      puts "Invalid entry, please try again"
     end
-    else 
   end
 end
 

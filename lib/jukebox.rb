@@ -49,10 +49,13 @@ def run(songs)
     case input
     when "list"
       list(songs)
+      break
     when "play"
       play(songs)
+      break
     when "help"
       help
+      break
     end
   end
 end

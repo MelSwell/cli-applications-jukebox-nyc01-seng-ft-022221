@@ -44,6 +44,7 @@ end
 
 def run(songs)
   while true do
+    help
     puts "Please enter a command:"
     input = gets.strip
     case input

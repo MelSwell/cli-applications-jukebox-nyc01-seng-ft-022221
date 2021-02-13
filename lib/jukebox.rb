@@ -46,6 +46,17 @@ def run(songs)
   while true do
     puts "Please enter a command:"
     input = gets.strip
+    case input
+    when "exit"
+      exit_jukebox
+      break
+    when "list"
+      list(songs)
+    when "play"
+      play(songs)
+    when "help"
+      help
+    end
   end
 end
 

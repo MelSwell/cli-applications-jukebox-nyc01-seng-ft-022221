@@ -57,6 +57,7 @@ def run(songs)
     when "help"
       help
     end
+    else 
   end
 end
 
